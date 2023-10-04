@@ -53,11 +53,11 @@ let respuesta = pregunta.respuestas
 
 function imprimeTodasLasRespuestas(pregunta) {
   // Put your code here
-let pepito = ""
+let bucleRes = ""
   for (let i = 0; i < respuesta.length; i++){
-   pepito += imprimeUnaRespuesta(respuesta[i])
+   bucleRes += imprimeUnaRespuesta(respuesta[i])
   } 
-  return pepito
+  return bucleRes
 }
 
 function imprimeUnaRespuesta(respuesta) {
